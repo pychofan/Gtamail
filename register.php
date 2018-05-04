@@ -9,8 +9,9 @@ echo $pass ;
 echo $mail ;
 $_SESSION["name"] = $name;
 $_SESSION["state"] = true;
-sleep(30);
-header('location: success.php');
+$_SESSION["reg"] = 1337 ;
+sleep(2);
+header('location: login.php');
 
 
 
